@@ -1,0 +1,84 @@
+  <!-- <div class="sidenav">
+    <button type="button" class="btn btn-default" aria-label="Left Align">
+      <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+
+    </button>
+    <h2>Contact</h2>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#clients">Clients</a>
+    <a href="#contact">Contact</a>
+  </div>
+  
+  <div class="main">
+    
+  </div> -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-5 col-md-5 col-sm-5 col-bg">
+          <!-- Header Section -->
+        <div class="row">
+          <div class="col-lg-12 bb">
+            <div class="parent">
+              <div class="column mg">
+                <button type="button" class="btn btn-default" aria-label="Left Align" style="color: #8083A3;">
+                  <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+                </button>
+                <h4 style="margin-left: 15px;">Contacts</h4>
+              </div>
+              <div class="column">
+                <button type="button" class="btn btn-default left-arrow" aria-label="">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-default right-arrow" aria-label="">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                </button>
+              </div>
+          </div>
+          </div>
+        </div>
+        <!-- Search Bar Section -->
+        <div class="row mb20">
+          <div class="col-lg-12">
+            <p class="searchForContacts">Search for a Contact</p>
+          <div class="search-field">
+            <h3 class="name">Name, email or phone number</h3>
+            <button type="button" class="btn btn-default searchButton" aria-label="Left Align">
+              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </button>
+          </div>
+          </div>
+
+        </div>
+        <!-- Contact Lists Section -->
+        <div class="row m15" *ngFor="let data of contactList">
+          <div class="col-lg-8" style=" display: flex; flex-direction: row;">
+            <div class="contact-thumbnail">
+            <img src="{{data.avatar}}" alt="" class="avatar">
+            </div>
+            <div class="contact-info ml15">
+              <p class="contact-name">{{data.firstName}} {{data.lastName}}</p>
+              <p class="contact-job">{{data.jobTitle}}</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="actions-icons">
+              <button type="button" class="btn btn-default m5 actionbtn" aria-label="" (click)="filter(data)" >
+                <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+              </button>
+              <button type="button" class="btn btn-default m5 actionbtn" aria-label="" (click)="filter(data)">
+                <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+              </button>
+              <button type="button" class="btn btn-default m5 actionbtn" aria-label="" (click)="filter(data)">
+                <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+          <app-emailaddress></app-emailaddress> 
+      </div>
+    </div>
+  </div>
+

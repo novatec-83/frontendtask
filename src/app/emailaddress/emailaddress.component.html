@@ -1,0 +1,41 @@
+<div class="row " *ngIf="message !== 'service'">
+    <div class="col-md-12">
+        <div class="row mb">
+            <div class="col-md-5">
+                <img src="{{message.avatar}}" alt="" class="avatar">
+            </div>
+            <div class="col-md-7">
+                <p class="contact-name">{{message.firstName}} {{message.lastName}}</p>
+                <p class="contact-job">{{message.jobTitle}}</p>
+                <button type="button" class="btn btn-default btn-message" aria-label="">
+                    <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Message
+                </button>
+                <button type="button" class="btn btn-default btn-action" aria-label="">
+                    <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-default btn-action" aria-label="">
+                    <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-default btn-action" aria-label="">
+                    <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <p class="txt-left">Email</p>
+                <p class="txt-left">Phone</p>
+            </div>
+            <div class="col-md-6">
+                <p class="txt-right">{{message.email}}</p>
+                <p class="txt-right">{{message.phone}}</p>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-default btn-pr">Primary</button>
+                <button class="btn btn-default btn-pr">Primary</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>

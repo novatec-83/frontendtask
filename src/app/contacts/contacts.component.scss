@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+.t{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;                
+    color: #1A1C1D;
+}
+.left{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0.11%;
+    background: #FAF9FF;
+}
+.left-arrow{
+    color: #8083A3;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #ECEEF5;
+    text-align: center;
+    margin-left: 175px;
+    margin-right: 10px;
+}
+.right-arrow{
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #ECEEF5;
+    // box-sizing: border-box;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #8083A3;
+}
+.parent {
+    display: flex;
+    flex-direction:row;
+    margin: 10px 0 10px 0px;
+}
+  
+.column {
+    flex: 1 1 0px;
+    // border: 1px solid black;
+}
+.mg{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.searchForContacts{
+    font-size: 14px;
+    color: #8083A3;
+    margin: 5px 0 0 0;
+}
+.search-field{
+    display: flex;
+    flex-direction: row;
+}
+.searchButton{
+    background-color: transparent;
+    border-color: transparent;
+    color: #8083A3;
+    margin-left: 265px;
+}
+.name{
+    font-size: 16px; 
+    margin-top: 8px;
+}
+.contact-name{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1A1C1D;
+    margin-bottom: 0px;
+}
+.contact-job{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8083A3;
+}
+.thumbnail{
+    height: 36px;
+    width: 36px;
+    border-radius: 10px;
+}
+.m5{
+    margin: 0 5px;
+}
+.actionbtn {
+    background-color: white; 
+    color: #8083A3; 
+    border: 0px solid transparent;
+}
+  
+.actionbtn:hover {
+    background: linear-gradient(0deg, rgba(77, 76, 172, 0.1), rgba(77, 76, 172, 0.1)), #FFFFFF;;
+    color: #6B59CC;
+}
+.m15{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+// .actions-icons{
+//     margin-left: 21%;
+// }
+.col-bg{
+    background-color: #FAF9FF;
+}
+.bb{
+    border-bottom: 1px solid #ECEEF5;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.avatar{
+    height: 46px; 
+    width: 46px; 
+    border-radius: 10px;
+}
+.ml15{
+    margin-left: 15px;
+}

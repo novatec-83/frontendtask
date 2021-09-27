@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+.mydiv{
+    margin-left: 480px;
+}
+.contact-name{
+    // font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1A1C1D;
+    margin-bottom: 0px;
+}
+.contact-job{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #8083A3;
+}
+.btn-action{
+    color:#8083A3;
+    background: #FFFFFF;
+    margin: 0px 1px;
+    border: 1px solid #ECEEF5;
+    font-size: 10px;
+}
+.btn-message{
+    color: white; 
+    background-color: #6B59CC; 
+    border-radius: 10px;
+    font-size: 10px;
+}
+.avatar{
+    height: 100px; 
+    width: 100px; 
+    border-radius: 26px; 
+    border: 0px solid transparent;
+    float: right;
+}
+.txt-left{
+    // font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;    
+    text-align: right;
+    color: #8083A3;
+}
+.txt-right{
+    // font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;    
+    color: #1A1C1D;
+}
+.mb{
+    margin: 20px 0px;
+}
+.btn-pr{
+    background: #F3F4F9;
+    border-radius: 8px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 12px;    
+    text-align: center;
+    color: #8083A3;
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
